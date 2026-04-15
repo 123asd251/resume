@@ -2,7 +2,7 @@ name: Deploy VitePress site to Pages
 
 on:
   push:
-    branches: [master] # 分支名称
+    branches: [main] # 分支名称
 
 permissions:
   contents: read
