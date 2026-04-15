@@ -9,7 +9,7 @@ export default defineConfig({
       { text: '首页', link: '/' },
       { text: '项目经验', link: '/projects/enterprise/index' },
       { text: '技术深挖', link: '/tech/java-spi' },
-      { text: '关于我', link: '/about' }
+      // { text: '关于我', link: '/about' }
     ],
     // 侧边栏配置
     sidebar: {
@@ -31,7 +31,7 @@ export default defineConfig({
       //   ]
       // },
       {
-        text: '🌍 GIS 专项项目',
+        text: '🌍 GIS 公司项目',
         collapsed: true,
         items: [
           { text: '国家遥感数据与应用服务平台', link: '/projects/enterprise/gfbs' },
@@ -43,8 +43,8 @@ export default defineConfig({
       }
     ]
   },
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com/123asd251' }
-    ]
+    // socialLinks: [
+    //   { icon: 'github', link: 'https://github.com/123asd251' }
+    // ]
   }
 })
