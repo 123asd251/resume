@@ -1,6 +1,7 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
+  base: '/resume/',
   title: "ZGH's Portfolio",
   themeConfig: {
     // 导航栏配置
@@ -43,7 +44,7 @@ export default defineConfig({
     ]
   },
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/your-id' }
+      { icon: 'github', link: 'https://github.com/123asd251' }
     ]
   }
 })
