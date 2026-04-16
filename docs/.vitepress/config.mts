@@ -7,29 +7,13 @@ export default defineConfig({
     // 导航栏配置
     nav: [
       { text: '首页', link: '/' },
-      { text: '项目经验', link: '/projects/enterprise/index' },
-      { text: '技术深挖', link: '/tech/java-spi' },
+      { text: '项目经验', link: '/projects/enterprise/gfbs' },
+      { text: '技术深挖', link: '/tech/mybatis' },
       // { text: '关于我', link: '/about' }
     ],
     // 侧边栏配置
     sidebar: {
     '/projects/': [
-      // {
-      //   text: '🛸 核心开源/个人项目',
-      //   collapsed: false, // 默认展开
-      //   items: [
-      //     { text: 'X-Hub 数据集成平台', link: '/projects/x-hub' },
-      //     { text: 'ZenNote 插件化笔记', link: '/projects/zennote' }
-      //   ]
-      // },
-      // {
-      //   text: '🛠️ 实用工具类',
-      //   collapsed: true, // 默认折叠，节省空间
-      //   items: [
-      //     { text: 'Tauri 剪切板助手', link: '/projects/tools-clipboard' },
-      //     { text: 'Rust 串口调试工具', link: '/projects/tools-serial' }
-      //   ]
-      // },
       {
         text: '🌍 GIS 公司项目',
         collapsed: true,
@@ -39,6 +23,25 @@ export default defineConfig({
           { text: 'TiTiler 矢量瓦片服务', link: '/projects/enterprise/titiler' },
           { text: '遥感制图平台', link: '/projects/enterprise/rsmp' }
          
+        ]
+      }
+    ],
+    '/tech/': [
+      {
+        text: '⚡ 技术深挖',
+        collapsed: true,
+        items: [
+          { text: 'Mybatis', link: '/tech/mybatis' },
+          { text: 'Quartz 分布式任务调度', link: '/tech/quartz' },
+          { text: '动态数据源切换', link: '/tech/dynamic-datasource' },
+          { text: '线程池管理', link: '/tech/thread-pool' },
+          { text: 'Redis 序列化', link: '/tech/redis-serialization' },
+          { text: 'Spring Boot 配置管理', link: '/tech/spring-boot-configuration' },
+          { text: 'Hutool', link: '/tech/hutool' },
+          { text: 'Apache POI', link: '/tech/apache-poi' },
+          { text: 'Java 反射', link: '/tech/java-reflection' },
+          { text: 'Java 注解', link: '/tech/java-annotations' },
+          { text: 'Java 8 Stream API', link: '/tech/java-stream' },
         ]
       }
     ]
